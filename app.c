@@ -5,6 +5,7 @@ int main  () {
     char firstName[] = "Chris";
     char lastName[] = "Martinez";
     int age = 125;
+    char message[] = "This is, a test message to say Happy Sunday!";
 
     //print first name
 
@@ -14,6 +15,9 @@ int main  () {
 
     //add age
     printf("My age is %d\n", age);
+
+    //adding a regular comment
+    printf("%s\n", message);
 
     return 0;
 }
